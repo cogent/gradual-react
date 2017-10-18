@@ -7,14 +7,16 @@ const SectionHeading = glamorous.h2({
 
 class ComponentList extends Component {
   render() {
+    const {components} = this.props
+
     return (
       <div>
         <SectionHeading>Components</SectionHeading>
         <ul>
-          <li>ComponentOne</li>
-          <li>ComponentTwo</li>
-          <li>ComponentThree</li>
-          </ul>
+          {components.map((component) =>
+            <li key={component}>{component}</li>
+          )}
+        </ul>
       </div>
     );
   }

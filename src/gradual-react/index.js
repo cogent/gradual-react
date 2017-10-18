@@ -1,3 +1,3 @@
-import Wrapper from './components/Wrapper'
+import Wrapper from './ui/components/Wrapper'
 
 export default Wrapper

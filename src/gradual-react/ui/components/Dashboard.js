@@ -21,7 +21,7 @@ class Dashboard extends Component {
     return (
       <DashboardContainer>
         <Heading>Gradual React</Heading>
-        <ComponentList />
+        <ComponentList components={this.props.components} />
       </DashboardContainer>
     );
   }

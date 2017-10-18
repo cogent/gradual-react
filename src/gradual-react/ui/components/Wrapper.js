@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Dashboard from './Dashboard'
+import Dashboard from '../containers/DashboardContainer'
 import glamorous from 'glamorous'
 
 const WrapperBody = glamorous.div({

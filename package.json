@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
     "glamor": "^2.20.40",
     "glamorous": "^4.9.7",
     "react": "^16.0.0",
@@ -13,6 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-gr": "./node_modules/nodemon/bin/nodemon.js src/gradual-react/backend/index.js -w src/gradual-react/backend/"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
